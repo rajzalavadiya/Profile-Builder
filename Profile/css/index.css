@@ -1,0 +1,356 @@
+* {
+  margin: 0px;
+}
+
+#home {
+  color: red;
+}
+
+.div {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  max-width: 1550px;
+  max-height: 100px;
+  display: grid;
+  grid-template-columns: 0.6fr 2fr;
+}
+
+/*---------------------------------------------- left side ---------------------------------------------------- */
+
+center h2 {
+  margin-bottom: 20px;
+}
+
+.left_side {
+  position: relative;
+  background: rgb(77, 24, 175);
+  padding: 20px;
+  color: white;
+  height: fit-content;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(44, 4, 66);
+}
+
+.img {
+  margin-left: 30px;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile h2 {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p span {
+  color: rgb(108, 180, 60);
+  text-transform: capitalize;
+}
+
+.text1 {
+  color: white;
+}
+
+p {
+  font-family: "Hind Siliguri", sans-serif;
+  padding: 3px 0 3px 0;
+}
+
+.content,
+.education,
+.learnt,
+.certification {
+  padding-top: 40px;
+}
+
+.content ul {
+  position: relative;
+}
+
+.content ul li {
+  display: flex;
+  margin: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.icon {
+  display: inline-block;
+
+  text-align: center;
+  width: 30px;
+  height: 30PX;
+  font-size: 18px;
+  color: #6d6fd6f4;
+}
+
+.text {
+  color: white;
+  margin-left: 10px;
+}
+
+.learnt span {
+  color: white;
+}
+
+.language,
+.tools {
+  display: inline-block;
+  width: 90%;
+  font-size: 20px;
+}
+
+.tools {
+  padding-top: 50px;
+}
+
+.progress {
+  width: 97%;
+  height: 20px;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+.progress progress {
+  width: 100%;
+  height: 15px;
+}
+
+.progress label {
+  float: right;
+  font-size: 20px;
+}
+
+
+
+
+
+/* -------------------------------------------- right side ------------------------------------------------ */
+
+
+
+
+
+.right_side {
+  position: relative;
+  padding: 40px;
+  font-size: 18px;
+  overflow-y: scroll;
+}
+
+.right_side::-webkit-scrollbar {
+  width: 1em;
+}
+
+.right_side p {
+  font-family: "Hind Siliguri", sans-serif;
+  color: #333;
+}
+
+#hr12 {
+  margin-top: -10px;
+  margin-left: 1px;
+  margin-bottom: 20px;
+  width: 120px;
+}
+
+.about p,
+.experience p,
+.publication p {
+  margin-bottom: 30px;
+  padding-right: 200px;
+}
+
+.right_side h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #003147;
+}
+
+.experience,
+.publication,
+.projects {
+  display: grid;
+  grid-template-columns: 0.6fr 2fr;
+  margin-bottom: 10px;
+}
+
+.experience h4,
+.publication h4,
+.projects h4 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #003147;
+}
+
+.readmore {
+  float: right;
+  margin-bottom: 90px;
+  cursor: pointer;
+}
+
+.readmore button {
+  width: 110px;
+  height: 40px;
+  background: #fff7;
+  /* box-shadow: rgba(0, 0, 0, 0.08) 0px 14px 28px; */
+  font-size: 17px;
+  border: hidden;
+  cursor: pointer;
+}
+
+.readmore button a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* .line2 {
+  margin: 0px 20px 20px 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+/* .box2 {
+  font-size: 20px;
+  padding: 0  20px 20px 20px;
+  margin: 20px;
+  width: 100px;
+  height: 400px;
+  
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 14px 28px
+    ;
+} */
+
+
+/* table  */
+
+.table {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: none;
+}
+
+th {
+  text-align: left;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+tr:hover td,
+tr:hover td p {
+  color: blue;
+}
+
+td {
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(199, 199, 199);
+  font-family: "Roboto", sans-serif;
+  color: #3d3d3f;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+td a {
+  text-decoration: none;
+}
+
+
+p {
+  padding-bottom: -5px;
+}
+
+td:active {
+  color: blue;
+}
+
+.dataTables_filter input {
+  margin-bottom: 5px;
+  height: 25px;
+}
+
+.dataTables_filter label,
+.dataTables_length label {
+  height: 40px;
+
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.dataTables_length select {
+  height: 25px;
+  width: 40px;
+}
+
+#example_info,
+#example_previous,
+#example_next {
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+/*      certification         */
+
+.box {
+
+  padding: 5px;
+  margin: 10px;
+  width: 300px;
+  height: 180px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 14px 28px;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.certification h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.intership {
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+label span {
+  color: blue;
+  font-size: 18px;
+}

@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#about {
+  color: red;
+}
+
+.contact {
+  padding: 0px 50px 0px 50px;
+}
+
+h1 {
+  color: #233d63;
+  text-align: center;
+}
+
+center h1 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #233d63;
+}
+
+center h2 {
+  display: inline-block;
+  font-size: 40px;
+  color: #233d63;
+  width: 380px;
+}
+
+#hr7 {
+  width: 200px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+#hr8 {
+  width: 180px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+#hr9 {
+  width: 200px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+#hr10 {
+  width: 100px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+#hr11 {
+  width: 200px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+/* CAREER OBJECTIVE */
+
+.first center h1 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #233d63;
+}
+
+/* TECHNOLOGY LEARNT  */
+
+.language,
+.tools {
+  display: inline-block;
+  width: 90%;
+  height: 80%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.progress {
+  width: 97%;
+  height: 20px;
+  padding: 20px;
+}
+
+.progress progress {
+  width: 100%;
+}
+
+span {
+  color: blue;
+  font-size: 20px;
+}
+
+.learnt label {
+  float: right;
+  font-size: 20px;
+}
+
+.learnt {
+  display: flex;
+}
+
+.line2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.box2 {
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* ACHIEVEMENTS , EXTRA- CURRICULAR  */
+.line {
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box {
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  background: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* Education  */
+
+.line1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.box1 {
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 20px 40px 20px;
+  margin: 20px;
+  width: 280px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.box1 h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: blue;
+}
+
+p {
+  padding: 3px;
+}
+
+/* ACHIEVEMENTS  */
+
+.line4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.box4 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+  margin: 20px;
+  width: 350px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.morebtn {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#btn {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(96 96 255);
+  border: none;
+  outline: none;
+}
+
+.popup1,
+.popup2 {
+  position: fixed;
+  z-index: 10000;
+  top: calc(50% - 200px);
+  left: calc(50% - 225px);
+  font-size: 20px;
+  padding: 20px;
+  width: 450px;
+  height: 400px;
+  visibility: hidden;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  overflow-y: scroll;
+}
+
+.popup1::-webkit-scrollbar,
+.popup2::-webkit-scrollbar {
+  width: 1em;
+}
+
+.popup1 label,
+.popup2 label {
+  float: right;
+  font-size: 20px;
+}
+
+.cross {
+  float: right;
+  font-size: 30px;
+  text-align: right;
+  margin-left: 30px;
+}
+
+.cross button {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 30px;
+}
+
+.cross button {
+  font-size: 30px;
+}
+
+center button {
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(96 96 255);
+  width: 100px;
+  margin-top: 20px;
+}
+
+.center1 {
+  display: block;
+}

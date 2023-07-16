@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact {
+  color: red;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.contact {
+  position: relative;
+  width: 950px;
+  height: 490px;
+  z-index: 50;
+  display: flex;
+  background: rgb(255, 255, 255);
+  left: 70px;
+}
+
+/* information */
+
+.info {
+  position: absolute;
+  width: 300px;
+  top: 40px;
+  left: -170px;
+  height: 330px;
+  background: #065a55;
+  padding: 40px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  display: inline-block;
+  color: #0003a9f4;
+}
+
+li {
+  display: flex;
+  text-decoration: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+ul li span {
+  font-size: 18px;
+}
+
+/* form  */
+
+
+.form {
+  position: absolute;
+  width: 700px;
+  top: 40px;
+  left: 245px;
+  height: 390px;
+
+  padding: 40px;
+}
+
+.form1 {
+  position: relative;
+  padding-top: 30px;
+}
+
+.form2 {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.form2 input {
+  width: 90%;
+  margin-right: 75px;
+  resize: none;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: brown;
+}
+
+.form3 textarea {
+  width: 85%;
+  outline: none;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  background: red;
+}

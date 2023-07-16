@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+#publication {
+  color: red;
+}
+
+center h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #233d63;
+}
+
+#hr3 {
+  width: 170px;
+  margin-top: -20px;
+  margin-bottom: 35px;
+}
+
+.title {
+  padding: 10px;
+  display: block;
+  font-weight: 3000;
+  font-size: 50px;
+  z-index: 2;
+}
+
+/* ---------------------------------------- All ---------------------------------------------------- */
+
+.all {
+  width: 100%;
+  display: inline-flex;
+  font-size: 19px;
+}
+
+.all h3 {
+  color: green;
+}
+
+.all h2 {
+  color: blue;
+  display: block;
+}
+
+.info {
+  padding-right: 80px;
+  padding-left: 50px;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  color: blue;
+}
+
+/*----------------------------------------- left ------------------------------------------------------*/
+
+.left {
+  width: 49%;
+  display: inline-block;
+}
+
+.projects {
+  float: right;
+  width: 550px;
+  height: 38vh;
+  margin-top: 35px;
+  text-align: right;
+  overflow: hidden;
+}
+
+@media screen and (min-height:600px) {
+  .space {
+    height: 125px;
+  }
+}
+
+@media screen and (min-height:1000px) {
+  .space {
+    height: 395px;
+  }
+}
+
+@media screen and (max-height:600px) {
+  .space {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height:400px) {
+  .space {
+    height: 75px;
+  }
+}
+
+/*--------------------------------------- Center  ----------------------------------------------------*/
+
+.center {
+  margin-top: 10px;
+  width: 2px;
+  display: inline-block;
+  background-color: rgb(45, 226, 45);
+}
+
+.dote {
+  margin-bottom: 20vh;
+  position: relative;
+  right: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(45, 226, 45);
+}
+
+/*------------------------------------- Right --------------------------------------------------- */
+
+.right {
+  width: 49%;
+  justify-content: start;
+  display: inline-block;
+}
+
+.project {
+  float: left;
+  width: 550px;
+  height: 36vh;
+  overflow: hidden;
+  margin-bottom: 50px;
+}

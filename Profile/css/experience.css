@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: blue;
+}
+
+#exprience {
+  color: red;
+}
+
+#hr1 {
+  width: 50px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+#hr2 {
+  margin-top: -20px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+center h1 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #233d63;
+}
+
+.contact {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.title {
+  padding: 10px;
+}
+
+.box {
+  font-size: 20px;
+  text-align: start;
+  padding: 20px;
+  margin: 20px;
+  width: 320px;
+  height: 340px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  overflow: hidden;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: 90px;
+  margin-right: 90px;
+  justify-content: center;
+}
+
+span {
+  color: blue;
+}
+
+/* JOBS  */
+
+.jobs {
+  color: black;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+/* INTERSHIP  */
+
+.internship {
+  color: black;
+  padding: 20px;
+}
+
+/* 
+.popup {
+  position: fixed;
+  z-index: 10000;
+  top: 150px;
+  left: 600px;
+  font-size: 20px;
+  padding: 20px;
+  width: 400px;
+  visibility: hidden;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cross {
+  float: right;
+  font-size: 30px;
+  text-align: right;
+  width: 400px;
+}
+
+button {
+  font-size: 30px;
+}
+ */

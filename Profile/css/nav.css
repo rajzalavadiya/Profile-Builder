@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e4e9f7;
+}
+
+hr {
+  background: orange;
+  border-radius: 10px;
+  height: 2px;
+}
+
+.nav1 {
+  width: 100%;
+}
+
+.nav1 nav {
+  background-color: rgb(59, 61, 60);
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  z-index: 500;
+}
+
+.nav1 #logo {
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.nav1 #logo a {
+  color: rgb(66, 66, 216);
+  text-decoration: none;
+  font-size: 50px;
+  float: left;
+}
+
+.nav1 #logo:hover a {
+  color: red;
+}
+
+.nav1 .navbar {
+  float: right;
+  display: flex;
+  padding-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav1 .navbar a {
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 7px;
+  color: rgb(66, 66, 216);
+  font-size: 25px;
+}
+
+.nav1 .navbar a:hover {
+  background-color: black;
+  color: red;
+}
+
+.mobile {
+  display: inline;
+  visibility: hidden;
+  position: absolute;
+  font-weight: bold;
+  font-size: 22px;
+  top: 50%;
+  left: calc(50% - 85px);
+}
+
+
+@media screen and (max-width:1000px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+  }
+
+}
